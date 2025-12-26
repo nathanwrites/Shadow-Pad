@@ -1,0 +1,92 @@
+.token-create {
+  display: flex;
+  justify-content: center;
+}
+
+.token-card {
+  width: 100%;
+  max-width: 56rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.token-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.token-card-subtitle {
+  margin: 0.4rem 0 1rem;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.token-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.token-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+@media (min-width: 760px) {
+  .token-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.token-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: #111827;
+  font-weight: 600;
+}
+
+.token-input {
+  /* defined in TokenCommon.css */
+}
+
+.token-hint {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 0.82rem;
+}
+
+.token-primary {
+  /* defined in TokenCommon.css */
+}
+
+.token-primary:disabled {
+  /* defined in TokenCommon.css */
+}
+
+.token-secondary {
+  /* defined in TokenCommon.css */
+}
+
+.token-secondary:disabled {
+  /* defined in TokenCommon.css */
+}
+
+.token-error {
+  /* defined in TokenCommon.css */
+}
+
+.token-result {
+  /* defined in TokenCommon.css */
+}
+
+.token-code {
+  /* defined in TokenCommon.css */
+}
